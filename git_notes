@@ -1,0 +1,16 @@
+git config --global core.editor vim
+
+git config --global user.email "eric.w.macdonald@gmail.com"
+git config --global user.name "Eric MacDonald"
+# to verify
+git config --global user.name
+
+
+git config credential.helper store
+git push http://example.com/repo.git
+Username: <type your username>
+password
+
+git remote show origin
+
+pull before push to synchronize
